@@ -191,7 +191,7 @@ def player_stats(player_name)
   game_hash.each do |team, team_hash|
     team_hash[:players].each do |key, value|
 
-      if key[:player_name] == player_name && != nil
+      if key[:player_name] == player_name && key[:player_name] != nil
          player[key] = value
         
       end
