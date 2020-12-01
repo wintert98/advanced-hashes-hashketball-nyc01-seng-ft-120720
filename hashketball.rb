@@ -193,7 +193,7 @@ def player_stats(player_name)
 
       if key[:player_name] == player_name 
         
-        player = key[:player_name] = value
+        player = player[key] = value
          
         
       end
