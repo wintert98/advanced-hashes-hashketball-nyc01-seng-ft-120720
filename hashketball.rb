@@ -193,7 +193,7 @@ def player_stats(player_name)
 
       if key[:player_name] == player_name 
         
-         player = player[key] = value
+         key[:assists]
          
         
       end
