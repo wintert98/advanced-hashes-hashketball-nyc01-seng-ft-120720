@@ -199,7 +199,7 @@ def player_stats(player_name)
       end
     end
   end
-  #player = player.compact
+  player = player.slice(nil)
   player
   
   #binding.pry
