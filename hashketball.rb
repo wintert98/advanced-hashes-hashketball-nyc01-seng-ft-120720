@@ -187,7 +187,7 @@ end
 
 
 def player_stats(player_name)
-  player = Hash.new
+  player = {}
   game_hash.each do |team, team_hash|
     team_hash[:players].each do |key, value|
 
