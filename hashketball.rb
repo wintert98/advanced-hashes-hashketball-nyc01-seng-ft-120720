@@ -193,7 +193,7 @@ def player_stats(player_name)
 
       if key[:player_name] == player_name
          player_stat[key] = value
-        # stats.delete(:player_name)
+        
         player_stat = player_stats.compact
         
       end
