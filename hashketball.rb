@@ -198,7 +198,7 @@ def player_stats(player_name)
       end
     end
   end
-  player = player.except(nil)
+  player = player.except!(nil)
   player
   
   #binding.pry
