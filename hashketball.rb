@@ -192,14 +192,14 @@ def player_stats(player_name)
     team_hash[:players].each do |key, value|
 
       if key[:player_name] == player_name 
-        player.delete!
+        
          player[key] = value
          
         
       end
     end
   end
-  #player = player.except!(nil)
+  player = player.delete(nil)
   player
   
   #binding.pry
