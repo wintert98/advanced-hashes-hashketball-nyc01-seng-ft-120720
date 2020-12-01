@@ -193,7 +193,7 @@ def player_stats(player_name)
       binding.pry
       if key[:player_name] == player_name 
         
-        player[key] = value
+        player = key
          
         
       end
