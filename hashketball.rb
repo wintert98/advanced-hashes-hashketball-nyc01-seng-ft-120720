@@ -194,7 +194,7 @@ def player_stats(player_name)
       if key[:player_name] == player_name
          player[key] = value
         
-        player = player.compact!
+        player = player.compact
         
       end
     end
