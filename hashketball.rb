@@ -193,7 +193,7 @@ def player_stats(player_name)
 
       if key[:player_name] == player_name 
         
-        player[key] = value
+        player.merge!(player[key] = value)
          
         
       end
