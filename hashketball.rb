@@ -199,7 +199,7 @@ def player_stats(player_name)
       end
     end
   end
-  player = player.delete(nil)
+  player = player.delete()
   player
   
   #binding.pry
